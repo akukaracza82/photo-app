@@ -21,6 +21,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'devise-i18n'
 gem 'devise-bootstrap-views', '~> 1.0'
 gem 'twitter-bootstrap-rails'
+gem 'stripe'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
