@@ -1,3 +1,8 @@
+<script src="https://js.stripe.com/v3/"></script>
+var stripe = Stripe('pk_test_51IAA8zJN5xalI54NftQJnW4vYEgM4CBwcrcrDmhlPL6LSd6ZlvrrWfiMm3wB7uhKMlNlbYomzvWKKJEa6nSL3MrR00LBTxGKJ4');
+
+
+
 <script language="Javascript">
   Stripe.setPublishableKey("<%= ENV['STRIPE_TEST_PUBLISHABLE_KEY'] %>");
 </script>
